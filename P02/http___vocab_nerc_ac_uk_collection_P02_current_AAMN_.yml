@@ -10,5 +10,5 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
       - fr: "Concentration de baguette"
-      - es: "to be filled in"
+      - es: "spanish here"
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/AAMN/1/"
