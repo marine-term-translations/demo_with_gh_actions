@@ -3,12 +3,12 @@ labels:
     original: "Atm_Nspecies"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
-      - fr: "to be filled in"
+      - fr: "to be filled"
       - es: "to be filled in"
   - name: "definition"
     original: "Concentrations of both organic (eg amines) and inorganic (eg ammonia and oxides of nitrogen) nitrogen species in all phases of the atmosphere"
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
-      - fr: "Concentration de baguette"
+      - fr: "Concentration de bague"
       - es: "spanish here"
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/AAMN/1/"
