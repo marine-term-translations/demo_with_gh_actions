@@ -3,7 +3,7 @@ labels:
     original: "SedAlkenoneAlkenoate"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
-      - fr: "to be filled in"
+      - fr: "something"
       - es: "to be fill"
   - name: "definition"
     original: "Parameters quantifying the amount of alkenones (unsaturated aliphatic ketones) and alkenoates (carboxylic acid esters) in any unconsolidated sediment including fluff."
