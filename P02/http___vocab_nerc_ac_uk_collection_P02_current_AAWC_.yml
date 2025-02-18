@@ -9,6 +9,6 @@ labels:
     original: "Alkanamine concentrations in all phases of the water column"
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
-      - fr: "to be filled in"
+      - fr: "some french here "
       - es: "to be filled in"
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/AAWC/1/"
