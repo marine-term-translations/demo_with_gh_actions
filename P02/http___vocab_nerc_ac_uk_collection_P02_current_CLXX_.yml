@@ -1,15 +1,14 @@
 labels:
-- name: altLabel
-  original: SedPoreWater_Halogen
-  path: http://www.w3.org/2004/02/skos/core#altLabel
-  translations:
-  - fr: to be filled in
-  - es: to be filled in
-- name: definition
-  original: Concentrations of halogens as elements or their inorganic compounds in
-    all phases of sediment pore water
-  path: http://www.w3.org/2004/02/skos/core#definition
-  translations:
-  - fr: to be filled in
-  - es: to be filled in
-uri: http://vocab.nerc.ac.uk/collection/P02/current/CLXX/4/
+  - name: "altLabel"
+    original: "SedPoreWater_Halogen"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    translations:
+      - fr: "fvdvsdfvsdv"
+      - es: "to be filled in"
+  - name: "definition"
+    original: "Concentrations of halogens as elements or their inorganic compounds in all phases of sediment pore water"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    translations:
+      - fr: "to be filled in"
+      - es: "to be filled in"
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CLXX/4/"
