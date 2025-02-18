@@ -3,7 +3,7 @@ labels:
     original: "Atm_Nspecies"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
-      - fr: "cavatene"
+      - fr: "cavatenen"
       - es: "fer"
   - name: "definition"
     original: "Concentrations of both organic (eg amines) and inorganic (eg ammonia and oxides of nitrogen) nitrogen species in all phases of the atmosphere"
