@@ -4,7 +4,7 @@ labels:
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
       - fr: "At_Dep_Rate"
-      - es: "to be filled in"
+      - es: "'t'(t'yz'"
   - name: "definition"
     original: "Fluxes of chemical species from the atmosphere to sea or land surface including precipitation and aerosol deposition but excluding fluxes due to exchange of gases"
     path: "http://www.w3.org/2004/02/skos/core#definition"
