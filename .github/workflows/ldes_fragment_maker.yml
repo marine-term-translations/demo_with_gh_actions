@@ -1,0 +1,63 @@
+name: ldes_fragment_maker_and_publisher
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [closed]
+
+jobs:
+  ldes_fragment_maker_and_publisher:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: check if pull request merged
+        if: github.event_name == 'pull_request'
+        run: |
+          if [ "${{ github.event.pull_request.merged }}" = "true" ]; then
+              echo "Pull request merged"
+          else
+              echo "Pull request not merged"
+          fi
+      - name: Sync branch with main
+        if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged == 'true')
+        run: |
+          git config --global user.name 'GitHub Actions'
+          git config --global user.email 'actions@github.com'
+          git fetch origin main
+          git checkout ${{ github.event.pull_request.head.ref || github.ref_name }}
+          git merge origin/main -X theirs
+          git push
+      - name: get the current hash of the main branch and the changed files
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            base_branch=${{ github.event.pull_request.base.ref }}
+            head_branch=${{ github.event.pull_request.head.ref }}
+          else
+            base_branch="main"
+            head_branch=${{ github.ref_name }}
+          fi
+          echo "Base branch: $base_branch"
+          echo "Head branch: $head_branch"
+          git fetch origin $base_branch
+          git fetch origin $head_branch
+          current_hash=$(git rev-parse origin/$base_branch)
+          last_hash=$(git rev-parse origin/$head_branch)
+          echo "Current hash: $current_hash"
+          echo "Last hash: $last_hash"
+          changed_files=$(git diff --name-only $last_hash $current_hash)
+          echo "Changed files: $changed_files"
+      #- name: LDES fragment maker and publisher
+      #  uses: cedricdcc/ldes-fragment-maker-action@latest
+      #- name: Deploy to GitHub Pages
+      #  uses: peaceiris/actions-gh-pages@v3
+      #  with:
+      #    github_token: ${{ secrets.GITHUB_TOKEN }}
+      #    publish_dir: ./ldes
+      #- name: Commit change of hash file
+      #  run: |
+      #    git config --global user.name 'GitHub Actions'
+      #    git config --global user.email 'actions@github.com'
+      #    git add .github/last_ldes_hash
+      #    git commit -m "Update LDES hash file"
+      #    git push
