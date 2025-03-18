@@ -3,7 +3,7 @@ uri: "http://vocab.nerc.ac.uk/collection/P02/current/A999/2/"
 labels:
   - name: "altLabel"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "WC_TaxMicrozooSurfArea"
+    original: "WC_TaxMicrozooSurfAreacChanged"
     translations:
       - fr: ""
   - name: "definition"
