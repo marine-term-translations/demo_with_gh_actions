@@ -11,15 +11,24 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: Sync branch with main
+        with:
+          # Ensure checkout fetches all history so that rebase can work properly
+          fetch-depth: 0
+      - name: Set git config
         if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged == 'true')
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
-          git pull origin main
-          git add .
-          git commit -m "Sync branch with main"
-          git push
+      - name: Fetch latest main branch
+        run: git fetch origin main
+  
+      - name: Rebase onto main using theirs strategy
+        run: |
+          git rebase -s recursive -X theirs origin/main
+      
+      - name: force push to the branch
+        run: git push origin HEAD:$GITHUB_REF --force
+
       - name: get the current hash of the main branch and the changed files
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then
