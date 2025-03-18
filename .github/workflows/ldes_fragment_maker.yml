@@ -11,21 +11,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: check if pull request merged
-        if: github.event_name == 'pull_request'
-        run: |
-          if [ "${{ github.event.pull_request.merged }}" = "true" ]; then
-              echo "Pull request merged"
-          else
-              echo "Pull request not merged"
-          fi
       - name: Sync branch with main
         if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.event.pull_request.merged == 'true')
         run: |
           git config --global user.name 'GitHub Actions'
           git config --global user.email 'actions@github.com'
           git fetch origin main
-          git checkout ${{ github.event.pull_request.head.ref || github.ref_name }}
           git merge origin/main -X theirs
           git push
       - name: get the current hash of the main branch and the changed files
