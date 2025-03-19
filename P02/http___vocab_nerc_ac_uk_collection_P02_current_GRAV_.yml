@@ -1,13 +1,12 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/GRAV/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Gravity"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Parameters relating to the measurement of the Earth's gravity field"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Gravity
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Parameters relating to the measurement of the Earth's gravity field
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/GRAV/2/

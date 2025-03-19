@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/MSIC/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "WC_IntegratedZooCarbBiomass"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Integrated zooplankton (mesozooplankton and larger, exclusing fish, mammals, reptiles and insects) carbon biomass parameters"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: WC_IntegratedZooCarbBiomass
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Integrated zooplankton (mesozooplankton and larger, exclusing fish, mammals,
+    reptiles and insects) carbon biomass parameters
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/MSIC/1/
