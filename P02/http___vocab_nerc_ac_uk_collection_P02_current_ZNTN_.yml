@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/ZNTN/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Zoo_nontaxa_N_biomass"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) nitrogen biomass per unit volume parameters not included in group ZCTC.  Usually used for generic names such as 'mesozooplankton'."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Zoo_nontaxa_N_biomass
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Zooplankton (mesozooplankton plus larger pelagic animals excluding fish,
+    reptiles and mammals) nitrogen biomass per unit volume parameters not included
+    in group ZCTC.  Usually used for generic names such as 'mesozooplankton'.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/ZNTN/2/
