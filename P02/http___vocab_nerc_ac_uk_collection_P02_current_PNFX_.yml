@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/PNFX/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "WC_SedFluxCells"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Fluxes expressed as number per unit area per unit time of any biota or remains thereof (excluding faecal pellets which are classed as SPM) downwards through the water column"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: WC_SedFluxCells
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Fluxes expressed as number per unit area per unit time of any biota or
+    remains thereof (excluding faecal pellets which are classed as SPM) downwards
+    through the water column
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/PNFX/2/
