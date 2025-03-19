@@ -3,12 +3,12 @@ labels:
   original: Sed_MicroPhytoAbund
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Any quantification of the number (e.g. count, abundance) of microalgae
     present on hard substrate or soft sediment at the bottom of any body of fresh
     or salt water.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/D000/3/
