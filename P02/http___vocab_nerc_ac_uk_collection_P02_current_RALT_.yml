@@ -3,7 +3,7 @@ labels:
   original: RockAlt
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters describing aspects of a geologic unit that are the result of
     bulk chemical, mineralogical or physical changes related to change in the physical
@@ -11,5 +11,5 @@ labels:
     alteration and metasomatic effects not considered metamorphic.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/RALT/3/
