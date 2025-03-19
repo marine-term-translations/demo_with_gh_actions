@@ -3,11 +3,11 @@ labels:
   original: Bath_Elev
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Depth of the water column or elevation of land surface relative to sea
     surface, geoid or other datum
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/MBAN/2/
