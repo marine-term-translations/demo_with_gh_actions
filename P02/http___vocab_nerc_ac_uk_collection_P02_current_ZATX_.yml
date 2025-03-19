@@ -3,7 +3,7 @@ labels:
   original: Zoo_taxa_abund
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Zooplankton (mesozooplankton plus larger pelagic animals excluding fish,
     reptiles and mammals) abundance parameters presented at the level of taxa that
@@ -11,5 +11,5 @@ labels:
     may be at any taxonomic level from sub-species upwards.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/ZATX/2/
