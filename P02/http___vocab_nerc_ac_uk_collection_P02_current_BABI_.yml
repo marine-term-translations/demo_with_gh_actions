@@ -3,11 +3,11 @@ labels:
   original: Bact_Biota
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters relating to the abundance and nature of bacteria (Kingdom Monera)
     infecting other biota.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/BABI/1/
