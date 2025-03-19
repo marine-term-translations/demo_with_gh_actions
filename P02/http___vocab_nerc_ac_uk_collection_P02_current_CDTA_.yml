@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/CDTA/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Air_temp"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Parameters quantifying the degree of hotness of the atmosphere.  Specifically excludes indirect measurements of other parameters such as wet bulb temperatures."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Air_temp
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Parameters quantifying the degree of hotness of the atmosphere.  Specifically
+    excludes indirect measurements of other parameters such as wet bulb temperatures.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/CDTA/2/

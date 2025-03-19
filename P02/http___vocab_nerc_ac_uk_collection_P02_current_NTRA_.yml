@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/NTRA/3/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "WC_NO3"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Nitrate concentration parameters (including statistical parameters such as standard deviation) in the water column. Includes nitrate+nitrite, which is often loosely referred to as nitrate."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: WC_NO3
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Nitrate concentration parameters (including statistical parameters such
+    as standard deviation) in the water column. Includes nitrate+nitrite, which is
+    often loosely referred to as nitrate.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/NTRA/3/
