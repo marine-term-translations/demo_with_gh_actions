@@ -3,12 +3,12 @@ labels:
   original: WC_SedFlux_nonmet
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Quantity of any inorganic species such as silicon (opal) and phosphorus
     passing through unit area of the water column in unit time. Carbon and nitrogen
     are regarded as organic and explicitly excluded
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/OPFX/2/
