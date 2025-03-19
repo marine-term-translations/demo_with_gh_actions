@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/INLZ/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "InsWorm_Tax_Litabund"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Insect (Class Insecta) and earthworm (Subclass Oligochaeta) abundance per unit area of the littoral zone (between spring tide high and low water) parameters."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: InsWorm_Tax_Litabund
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Insect (Class Insecta) and earthworm (Subclass Oligochaeta) abundance
+    per unit area of the littoral zone (between spring tide high and low water) parameters.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/INLZ/2/

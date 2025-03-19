@@ -1,13 +1,12 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/OCPW/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "SedPoreWat_DOC"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Concentrations of dissolved organic carbon in sediment pore waters"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: SedPoreWat_DOC
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Concentrations of dissolved organic carbon in sediment pore waters
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/OCPW/1/

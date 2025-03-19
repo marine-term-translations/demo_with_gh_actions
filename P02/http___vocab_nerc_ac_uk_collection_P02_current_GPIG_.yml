@@ -1,13 +1,12 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/GPIG/3/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "GutPig"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Parameters identifying or quantifying zooplankton gut pigments"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: GutPig
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Parameters identifying or quantifying zooplankton gut pigments
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/GPIG/3/
