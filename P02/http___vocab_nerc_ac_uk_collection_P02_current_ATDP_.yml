@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/ATDP/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "At_Dep_Rate"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Fluxes of chemical species from the atmosphere to sea or land surface including precipitation and aerosol deposition but excluding fluxes due to exchange of gases"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: At_Dep_Rate
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Fluxes of chemical species from the atmosphere to sea or land surface
+    including precipitation and aerosol deposition but excluding fluxes due to exchange
+    of gases
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/ATDP/1/

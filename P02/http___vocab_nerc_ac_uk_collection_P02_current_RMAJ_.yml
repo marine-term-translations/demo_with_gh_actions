@@ -1,13 +1,15 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/RMAJ/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "GeoMajors"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Concentrations of the elements classically regarded as major (>1% by weight as oxide: namely: Si, Ti, Al, Fe3+, Fe2+, Mg, Mn, Ca, Na, and K) plus affiliated parameters such as H2O- (adsorbed water) and H2O+ (or loss on ignition) in rocks or sediments."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: GeoMajors
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: 'Concentrations of the elements classically regarded as major (>1% by
+    weight as oxide: namely: Si, Ti, Al, Fe3+, Fe2+, Mg, Mn, Ca, Na, and K) plus affiliated
+    parameters such as H2O- (adsorbed water) and H2O+ (or loss on ignition) in rocks
+    or sediments.'
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/RMAJ/2/

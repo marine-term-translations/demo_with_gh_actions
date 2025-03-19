@@ -1,13 +1,16 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/MDSD/3/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Metoid_Sed"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Concentration parameters for metalloid elements in sediment.  Sediment is understood to be the solid phase of the bed, including the recently settled material sometimes known as fluff collected from the bed surface. Metalloids are considered as B, Ge, As, Sb, Te and Po (but not Si which is classed separately because of its major role in environmental chemistry)"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Metoid_Sed
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Concentration parameters for metalloid elements in sediment.  Sediment
+    is understood to be the solid phase of the bed, including the recently settled
+    material sometimes known as fluff collected from the bed surface. Metalloids are
+    considered as B, Ge, As, Sb, Te and Po (but not Si which is classed separately
+    because of its major role in environmental chemistry)
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/MDSD/3/
