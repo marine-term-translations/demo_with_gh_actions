@@ -3,11 +3,11 @@ labels:
   original: FAD usage statistics
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters describing usage of Fish Aggregating Devices (FAD) in fisheries
     (particularly purse seine tuna fisheries).
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/FADS/1/
