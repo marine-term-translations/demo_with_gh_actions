@@ -8,5 +8,5 @@ labels:
   original: All date and time parameters
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: to be filled in
+  - fr: this one is filled in the define the fact that there was a change here
 uri: http://vocab.nerc.ac.uk/collection/P02/current/AYMD/2/
