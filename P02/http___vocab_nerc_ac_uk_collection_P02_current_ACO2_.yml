@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/ACO2/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Atm_pCO2"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "CO and CO2 concentration parameters in any phase of the atmosphere (but usuall the gaseous phase). Includes pCO2."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Atm_pCO2
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: CO and CO2 concentration parameters in any phase of the atmosphere (but
+    usuall the gaseous phase). Includes pCO2.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/ACO2/2/
