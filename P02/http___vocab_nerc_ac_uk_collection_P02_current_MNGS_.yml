@@ -3,7 +3,7 @@ labels:
   original: Sed_GrainSize
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters specifying the physical dimensions of the particles comprising
     unlithified sediment (including expressions of shape such as aspect ratio) and
@@ -11,5 +11,5 @@ labels:
     skewness).
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/MNGS/3/
