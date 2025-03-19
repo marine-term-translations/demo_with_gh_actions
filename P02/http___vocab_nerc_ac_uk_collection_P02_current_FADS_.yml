@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/FADS/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "FAD usage statistics"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Parameters describing usage of Fish Aggregating Devices (FAD) in fisheries (particularly purse seine tuna fisheries)."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: FAD usage statistics
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Parameters describing usage of Fish Aggregating Devices (FAD) in fisheries
+    (particularly purse seine tuna fisheries).
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/FADS/1/

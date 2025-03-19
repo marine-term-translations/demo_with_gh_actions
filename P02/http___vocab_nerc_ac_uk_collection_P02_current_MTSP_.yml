@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/MTSP/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Met_SPM"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Concentrations of metal elements in suspended particulate material collected by water column filtration, centrifugation or sediment trapping. Deprecated as semantic overlap with MTWP."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Met_SPM
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Concentrations of metal elements in suspended particulate material collected
+    by water column filtration, centrifugation or sediment trapping. Deprecated as
+    semantic overlap with MTWP.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/MTSP/1/

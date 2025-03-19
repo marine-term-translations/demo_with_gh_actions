@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/BRDA/4/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Bird_count"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Parameters quantifying the number of birds (Class Aves) in a survey but not expressed per unit area. Includes presence/absence indicators."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Bird_count
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Parameters quantifying the number of birds (Class Aves) in a survey but
+    not expressed per unit area. Includes presence/absence indicators.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/BRDA/4/
