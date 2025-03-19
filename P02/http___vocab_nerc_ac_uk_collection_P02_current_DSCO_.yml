@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/DSCO/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "WC_DistCoeff"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Distribution coefficients of species between the dissolved and particulate phases of the water column"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: WC_DistCoeff
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Distribution coefficients of species between the dissolved and particulate
+    phases of the water column
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/DSCO/1/

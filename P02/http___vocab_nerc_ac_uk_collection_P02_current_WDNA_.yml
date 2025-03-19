@@ -1,13 +1,16 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/WDNA/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Biolpoly_water"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Parameters quantifying the amount of naturally-produced organic (molecules containing carbon) compounds that are built from multiple instances of structural units (monomers) that are covalently-bonded to produce larger structures in any body of salt or fresh water. Includes polynucleotides (RNA and DNA), polypeptides and polysaccharides (e.g. cellulose)."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Biolpoly_water
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Parameters quantifying the amount of naturally-produced organic (molecules
+    containing carbon) compounds that are built from multiple instances of structural
+    units (monomers) that are covalently-bonded to produce larger structures in any
+    body of salt or fresh water. Includes polynucleotides (RNA and DNA), polypeptides
+    and polysaccharides (e.g. cellulose).
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/WDNA/2/
