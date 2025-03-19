@@ -3,7 +3,7 @@ uri: "http://vocab.nerc.ac.uk/collection/P02/current/AAMN/1/"
 labels:
   - name: "altLabel"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Atm_Nspecies"
+    original: "Atm_Nspecies_test_change_main_no_change_branch"
     translations:
       - fr: ""
   - name: "definition"
