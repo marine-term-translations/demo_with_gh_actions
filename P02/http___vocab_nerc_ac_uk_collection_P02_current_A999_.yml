@@ -3,7 +3,7 @@ labels:
   original: WC_TaxMicrozooSurfArea
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Microzooplankton surface area per unit volume of the water column parameters
     presented at the level of taxa that may be mapped to entities in a standard taxonomy
@@ -11,5 +11,5 @@ labels:
     upwards.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/A999/2/
