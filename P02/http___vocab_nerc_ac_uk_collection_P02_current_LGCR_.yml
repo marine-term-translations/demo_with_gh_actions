@@ -3,11 +3,11 @@ labels:
   original: Lagran_Currents_WC
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters expressing the mean nett transport rates within the water column
     like Lagrangian currents. Note this is an unintentional duplicate of VDFC.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/LGCR/1/

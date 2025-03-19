@@ -3,12 +3,12 @@ labels:
   original: Pharm_Biota
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Concentration parameters for substances synthesised by man to modify bodily
     function or diagnose, cure, mitigate, treat, or prevent disease in either whole
     organisms or their constituent parts.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/PHBI/3/
