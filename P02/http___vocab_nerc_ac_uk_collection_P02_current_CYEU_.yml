@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/CYEU/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "WC_PlanktonCarbBiomass"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Used for plankton carbon biomass parameters where no differentiation between phytoplankton, microzooplankton or zooplankton is possible"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: WC_PlanktonCarbBiomass
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Used for plankton carbon biomass parameters where no differentiation between
+    phytoplankton, microzooplankton or zooplankton is possible
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/CYEU/1/
