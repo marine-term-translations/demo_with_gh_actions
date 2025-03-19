@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/DALK/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "WC_alkane"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Alkane concentration parameters (including saturation of gaseous species) in all phases of the water column.  Does not include parameters expressed per unit weight of SPM."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: WC_alkane
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Alkane concentration parameters (including saturation of gaseous species)
+    in all phases of the water column.  Does not include parameters expressed per
+    unit weight of SPM.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/DALK/1/

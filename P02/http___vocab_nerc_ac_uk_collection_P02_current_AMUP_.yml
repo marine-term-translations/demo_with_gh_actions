@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/AMUP/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Reg_prod"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Parameters quantifying the uptake rate of nitrogen from excretion products (ammonium and urea) by flora and fauna living in any body of salt or fresh water"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Reg_prod
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Parameters quantifying the uptake rate of nitrogen from excretion products
+    (ammonium and urea) by flora and fauna living in any body of salt or fresh water
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/AMUP/2/
