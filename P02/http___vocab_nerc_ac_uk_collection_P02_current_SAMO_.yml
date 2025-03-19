@@ -3,11 +3,11 @@ labels:
   original: WCBed_NutFlux
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters quantifying the exchange of nutrients between the bed (ie the
     sediment) and the water column sometimes termed benthic fluxes
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/SAMO/1/

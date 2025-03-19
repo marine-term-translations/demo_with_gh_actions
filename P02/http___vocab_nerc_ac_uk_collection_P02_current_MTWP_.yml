@@ -3,11 +3,11 @@ labels:
   original: Met_WC_Part
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Concentration parameters for metallic elements in the particulate phase
     of the water column collected by fitration, centrifugation or sediment trapping
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/MTWP/4/

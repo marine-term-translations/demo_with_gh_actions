@@ -3,7 +3,7 @@ labels:
   original: Depth
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters expressing depth (possibly as pressure) of an instrument on
     a suspended underwater mooring.  These are primarily collected to monitor mooring
@@ -11,5 +11,5 @@ labels:
     z co-ordinates (accurate calibration is rare) or as sea level measurements.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/MPMN/1/
