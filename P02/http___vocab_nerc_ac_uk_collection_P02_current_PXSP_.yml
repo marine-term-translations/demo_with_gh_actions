@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/PXSP/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "SPM_Phosphorus"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Concentrations of total, organic and inorganic phosphorus per unit weight of suspended particulate material collected by water column filtration, centrifugation or sediment trapping."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: SPM_Phosphorus
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Concentrations of total, organic and inorganic phosphorus per unit weight
+    of suspended particulate material collected by water column filtration, centrifugation
+    or sediment trapping.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/PXSP/1/
