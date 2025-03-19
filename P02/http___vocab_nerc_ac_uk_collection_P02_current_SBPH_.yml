@@ -1,13 +1,12 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/SBPH/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "BedPhoto"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Digital images of the seabed obtained using either still or video cameras"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: BedPhoto
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Digital images of the seabed obtained using either still or video cameras
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/SBPH/1/
