@@ -1,13 +1,16 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/BDWC/3/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Sed_TaxBacteriaAFDW"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Bacteria ash-free dry weight biomass in sediment parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  The taxa may be at any taxonomic level from sub-species upwards.  Bacteria are defined as all taxa that fall into Kingdom Monera in the ITIS taxonomy, which includes cyanobacteria."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Sed_TaxBacteriaAFDW
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Bacteria ash-free dry weight biomass in sediment parameters presented
+    at the level of taxa that may be mapped to entities in a standard taxonomy registry
+    such as WoRMS or ITIS.  The taxa may be at any taxonomic level from sub-species
+    upwards.  Bacteria are defined as all taxa that fall into Kingdom Monera in the
+    ITIS taxonomy, which includes cyanobacteria.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/BDWC/3/
