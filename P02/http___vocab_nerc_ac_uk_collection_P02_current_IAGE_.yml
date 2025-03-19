@@ -1,0 +1,12 @@
+labels:
+- name: altLabel
+  original: Age_Ice
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Measured or stratigraphically estimated age of ice
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/IAGE/1/

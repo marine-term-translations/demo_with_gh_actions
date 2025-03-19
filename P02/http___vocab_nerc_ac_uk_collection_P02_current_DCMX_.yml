@@ -1,0 +1,15 @@
+labels:
+- name: altLabel
+  original: Haloc_WC
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Concentrations of volatile halocarbons (compounds comprising carbon atoms
+    covalently bonded to fluorine, chlorine, bromine or iodine atoms) other than tracers
+    (i.e. freons/chlorofluorocarbons) and contaminants in any body of fresh or salt
+    water.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/DCMX/5/

@@ -1,0 +1,12 @@
+labels:
+- name: altLabel
+  original: Met_SedPW
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Concentrations of metal elements in sediment pore waters
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/MTPW/1/

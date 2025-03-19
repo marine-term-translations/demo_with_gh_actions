@@ -1,0 +1,13 @@
+labels:
+- name: altLabel
+  original: Sed_Adenylates
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Concentrations of adenylates (ADP, ATP etc) per unit mass or unit volume
+    of sediment (material collected by a corer including fluff)
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/TADN/1/

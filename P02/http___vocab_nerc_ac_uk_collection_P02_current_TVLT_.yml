@@ -1,0 +1,14 @@
+labels:
+- name: altLabel
+  original: Raw_SPM_optics
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Raw parameters (voltages and counts) from in-situ suspended particulate
+    material sensors including transmissometers, nephelometers,in-situ particle sizers
+    and ABS (including ADCP echo intensity).
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/TVLT/4/

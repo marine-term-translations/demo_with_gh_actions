@@ -1,0 +1,13 @@
+labels:
+- name: altLabel
+  original: WC_Turbulence
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Measured parameters expressing turbulence in the water column plus parameters
+    derived from these measurements
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/EPSI/1/

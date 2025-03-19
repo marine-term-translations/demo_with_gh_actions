@@ -1,0 +1,16 @@
+labels:
+- name: altLabel
+  original: WC_Pigments
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Includes all pigments that cannot be explicitly classified as chlorophylls,
+    phaeopigments or carotenoids.  Generally, these are parameters where different
+    pigments have been grouped together. Concentrations are expressed in terms of
+    per unit volume or unit area of the water column.  Does not include data expressed
+    per unit mass of SPM.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/OPWC/1/
