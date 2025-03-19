@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/SSTB/3/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "Iso_Sed"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Stable isotope parameters (concentrations, ratios and enrichments) in sediment, including biota-associated parameters such as isotope enrichment in foraminifera tests."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: Iso_Sed
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Stable isotope parameters (concentrations, ratios and enrichments) in
+    sediment, including biota-associated parameters such as isotope enrichment in
+    foraminifera tests.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/SSTB/3/
