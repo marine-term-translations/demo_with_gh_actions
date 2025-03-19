@@ -3,12 +3,12 @@ labels:
   original: WC_MicrozooGraz
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters that express the consumption of the phytoplankton population
     by the microzooplankton.  Generally the results of dilution experiments on water
     samples screened through a 200-micron mesh.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/MZCT/2/
