@@ -3,11 +3,11 @@ labels:
   original: SnowIce_Amount
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Measurements of quantity (mass), thickness and spatial extent of snow
     and ice
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/CRYS/3/
