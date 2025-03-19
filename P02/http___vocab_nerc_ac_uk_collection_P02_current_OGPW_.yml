@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/OGPW/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "SedPoreWater_Gases"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "All concentration parameters for inorganic dissolved gases other than oxygen and the noble gases in sediment pore water samples"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: SedPoreWater_Gases
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: All concentration parameters for inorganic dissolved gases other than
+    oxygen and the noble gases in sediment pore water samples
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/OGPW/2/

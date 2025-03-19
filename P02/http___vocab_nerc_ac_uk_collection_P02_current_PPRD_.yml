@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/PPRD/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "WC_PrimaryProd"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Parameters associated with the quantification of primary production.  This is defined as the fixation of carbon dioxide into either organic or inorganic carbon by living entities and so includes photosynthesis and calcification."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: WC_PrimaryProd
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Parameters associated with the quantification of primary production.  This
+    is defined as the fixation of carbon dioxide into either organic or inorganic
+    carbon by living entities and so includes photosynthesis and calcification.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/PPRD/1/
