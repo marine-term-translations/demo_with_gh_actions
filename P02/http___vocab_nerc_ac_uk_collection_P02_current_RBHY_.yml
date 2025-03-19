@@ -1,13 +1,12 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/RBHY/2/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "MolecularBiol"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Any parameters relating to molecular biology or genetics"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: MolecularBiol
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Any parameters relating to molecular biology or genetics
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/RBHY/2/

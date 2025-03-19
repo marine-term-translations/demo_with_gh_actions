@@ -1,13 +1,13 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/OCAA/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "AtmosOrgContam"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Parameters quantifying concentrations of organic contaminants (substances regarded as harmful) other than PCBs and PAHs in all phases of the atmosphere"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: AtmosOrgContam
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Parameters quantifying concentrations of organic contaminants (substances
+    regarded as harmful) other than PCBs and PAHs in all phases of the atmosphere
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/OCAA/1/
