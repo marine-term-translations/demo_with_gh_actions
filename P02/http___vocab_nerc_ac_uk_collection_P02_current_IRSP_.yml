@@ -3,12 +3,12 @@ labels:
   original: Iso_Speleo
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Stable isotope parameters (concentrations, ratios and enrichments) in
     secondary mineral deposits in caves. This includes stalactites, stalagmites, flowstone,
     and crystal growths.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/IRSP/2/
