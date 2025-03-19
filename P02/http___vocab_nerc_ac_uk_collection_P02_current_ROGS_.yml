@@ -1,0 +1,15 @@
+labels:
+- name: altLabel
+  original: RockGrainSize
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Parameters specifying the physical dimensions of the particles comprising
+    lithified sedimentary rocks (including expressions of shape such as aspect ratio)
+    and statistics derived from their variation in a sample (e.g. mean, mode, sorting,
+    skewness).
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/ROGS/2/

@@ -1,0 +1,14 @@
+labels:
+- name: altLabel
+  original: Zoo_taxa_prot_biom
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Zooplankton (mesozooplankton plus larger pelagic animals excluding fish,
+    reptiles and mammals) protein biomass per unit volume for entities that have been
+    identified by taxonomic name
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/ZATP/1/

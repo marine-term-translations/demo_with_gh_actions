@@ -1,0 +1,14 @@
+labels:
+- name: altLabel
+  original: DOC
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: DOC per unit volume of the water column.  Note that this includes some
+    parameters that are strictly defined as total carbon, because the water was unfiltered
+    on the assumption that POC was negligible.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/DOCC/1/

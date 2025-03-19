@@ -1,0 +1,13 @@
+labels:
+- name: altLabel
+  original: SedPoreWat_CarbChem
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Carbonate system parameters (DIC/TCO2, pH, alkalinity, pCO2) in sediment
+    pore waters
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/CCPW/3/

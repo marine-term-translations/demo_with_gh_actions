@@ -1,6 +1,6 @@
 labels:
 - name: altLabel
-  original: WC_TaxMicrozooSurfAreaTest
+  original: WC_TaxMicrozooSurfArea
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
   - fr: ''

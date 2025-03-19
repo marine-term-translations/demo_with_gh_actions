@@ -1,0 +1,14 @@
+labels:
+- name: altLabel
+  original: Sfish_Rep
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Parameters that quantify the fecundity, reproductive rates or nature of
+    reproduction in shellfish (molluscs - including cephalopods - and crustaceans
+    of interest to fisheries research and commercial fisheries).
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/SREP/2/

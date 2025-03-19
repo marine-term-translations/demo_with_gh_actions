@@ -1,0 +1,14 @@
+labels:
+- name: altLabel
+  original: SnowIce_PhysChar
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Parameters related to physical properties (e.g. colour, density, in-situ
+    temperature) or characteristics (e.g. sea ice type) of any kind of water sample
+    that was in its solid state at the time of sampling or measurement
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/IPHY/1/

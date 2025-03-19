@@ -1,0 +1,14 @@
+labels:
+- name: altLabel
+  original: FishDis
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Parameters related to the infection of Fish (Osteichthyes, Agnatha and
+    Chrondrichthyes) by parasites and disease. Includes visual assesements and analytical
+    data.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/GP005/1/
