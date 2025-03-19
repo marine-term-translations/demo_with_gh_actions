@@ -3,10 +3,10 @@ labels:
   original: Horiz_spat_coord
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: All forms of horizontal spatial coordinates such as lat/lon and grid references
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/ALAT/2/

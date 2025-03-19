@@ -3,7 +3,7 @@ labels:
   original: WC_NontaxBacteriaCarbBiomass
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Basically any bacteria carbon biomass parameters that aren't included
     in parameter group BATC because they cannot be mapped to specific taxa in a standard
@@ -11,5 +11,5 @@ labels:
     which includes cyanobacteria.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/BNTC/2/

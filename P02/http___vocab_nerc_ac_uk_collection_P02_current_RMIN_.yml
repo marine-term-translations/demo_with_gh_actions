@@ -3,7 +3,7 @@ labels:
   original: InorgChemRockSed
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters specifying the proportions of inorganic components (major/minor/trace
     elements, trace metals etc.) in sediment or rock samples.  Major elements includes
@@ -11,5 +11,5 @@ labels:
     major element analyses.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/RMIN/3/
