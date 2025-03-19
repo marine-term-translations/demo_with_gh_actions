@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/WCTR/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "WC_tracer"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Parameters describing the amount in a sample of a tracer (rhodamine, SF6, 3He, etc.) that has been purposely released into  a water body to track water mass movements or quantify exchanges with the atmosphere."
-    translations:
-      - fr: ""
+- name: altLabel
+  original: WC_tracer
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Parameters describing the amount in a sample of a tracer (rhodamine, SF6,
+    3He, etc.) that has been purposely released into  a water body to track water
+    mass movements or quantify exchanges with the atmosphere.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/WCTR/1/

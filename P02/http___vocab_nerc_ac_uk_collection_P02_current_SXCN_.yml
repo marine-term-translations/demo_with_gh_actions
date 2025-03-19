@@ -1,13 +1,14 @@
-
-uri: "http://vocab.nerc.ac.uk/collection/P02/current/SXCN/1/"
 labels:
-  - name: "altLabel"
-    path: "http://www.w3.org/2004/02/skos/core#altLabel"
-    original: "SPM_SulphSpecies"
-    translations:
-      - fr: ""
-  - name: "definition"
-    path: "http://www.w3.org/2004/02/skos/core#definition"
-    original: "Concentration parameters for inorganic sulphur species in suspended particulate material (anything collected by filtration or sediment trapping).  Group does not include parameters expressing data per unit volume of the water column"
-    translations:
-      - fr: ""
+- name: altLabel
+  original: SPM_SulphSpecies
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: to be filled in
+- name: definition
+  original: Concentration parameters for inorganic sulphur species in suspended particulate
+    material (anything collected by filtration or sediment trapping).  Group does
+    not include parameters expressing data per unit volume of the water column
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: to be filled in
+uri: http://vocab.nerc.ac.uk/collection/P02/current/SXCN/1/
