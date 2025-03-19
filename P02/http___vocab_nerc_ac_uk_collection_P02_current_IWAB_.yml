@@ -3,7 +3,7 @@ labels:
   original: InsWorm_tax_abund_bed
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Insect (Class Insecta) and earthworm (Subclass Oligochaeta) abundance
     per unit area of bed (sea, river, lake etc.) parameters presented at the level
@@ -13,5 +13,5 @@ labels:
     to separate predominantly freshwater taxa from predominantly marine taxa.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/IWAB/2/
