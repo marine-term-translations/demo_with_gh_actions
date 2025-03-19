@@ -3,7 +3,7 @@ labels:
   original: Fish_tax_aubund_bed
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Fish (Osteichthyes, Agnatha and Chondrichthyes) abundance per unit area
     of bed (sea, river, lake etc.) parameters presented at the level of taxa that
@@ -12,5 +12,5 @@ labels:
     samples.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/FBAB/2/
