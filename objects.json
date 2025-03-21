@@ -210,11 +210,6 @@
         "branch": "batch-16"
     },
     {
-        "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_SSTB_.yml",
-        "status": "recieved",
-        "branch": "batch-24"
-    },
-    {
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_WSTB_.yml",
         "status": "recieved",
         "branch": "batch-13"
@@ -325,11 +320,6 @@
         "branch": "batch-1"
     },
     {
-        "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_ZCTC_.yml",
-        "status": "recieved",
-        "branch": "batch-24"
-    },
-    {
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_ZCTN_.yml",
         "status": "recieved",
         "branch": "batch-4"
@@ -363,11 +353,6 @@
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_MDWP_.yml",
         "status": "recieved",
         "branch": "batch-19"
-    },
-    {
-        "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_MDWD_.yml",
-        "status": "recieved",
-        "branch": "batch-24"
     },
     {
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_BCMT_.yml",
@@ -915,11 +900,6 @@
         "branch": "batch-15"
     },
     {
-        "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_PASR_.yml",
-        "status": "recieved",
-        "branch": "batch-24"
-    },
-    {
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_ACSR_.yml",
         "status": "recieved",
         "branch": "batch-20"
@@ -1013,11 +993,6 @@
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_GWAM_.yml",
         "status": "recieved",
         "branch": "batch-8"
-    },
-    {
-        "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_GWCH_.yml",
-        "status": "recieved",
-        "branch": "batch-24"
     },
     {
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_RBSC_.yml",
@@ -1283,11 +1258,6 @@
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_QDMD_.yml",
         "status": "recieved",
         "branch": "batch-16"
-    },
-    {
-        "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_PCLM_.yml",
-        "status": "recieved",
-        "branch": "batch-24"
     },
     {
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_STOM_.yml",
@@ -1578,11 +1548,6 @@
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_ATVS_.yml",
         "status": "recieved",
         "branch": "batch-17"
-    },
-    {
-        "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_IAGE_.yml",
-        "status": "recieved",
-        "branch": "batch-24"
     },
     {
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_FABD_.yml",
@@ -2213,11 +2178,6 @@
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_AHGT_.yml",
         "status": "recieved",
         "branch": "batch-18"
-    },
-    {
-        "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_AYMD_.yml",
-        "status": "recieved",
-        "branch": "batch-24"
     },
     {
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_ALAT_.yml",
