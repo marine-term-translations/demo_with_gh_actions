@@ -210,11 +210,6 @@
         "branch": "batch-16"
     },
     {
-        "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_SSTB_.yml",
-        "status": "recieved",
-        "branch": "batch-24"
-    },
-    {
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_WSTB_.yml",
         "status": "recieved",
         "branch": "batch-13"
@@ -323,11 +318,6 @@
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_A999_.yml",
         "status": "recieved",
         "branch": "batch-1"
-    },
-    {
-        "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_ZCTC_.yml",
-        "status": "recieved",
-        "branch": "batch-24"
     },
     {
         "file_name": "http___vocab_nerc_ac_uk_collection_P02_current_ZCTN_.yml",
