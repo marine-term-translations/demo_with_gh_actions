@@ -1,6 +1,6 @@
 labels:
 - name: altLabel
-  original: Atm_Nspecies
+  original: Atm_Nspecies_marportierupdate
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
   - fr: ''
