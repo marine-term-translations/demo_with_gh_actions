@@ -3,11 +3,11 @@ labels:
   original: Sed_AminoAcids
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters quantifying the amount of organic compounds containing both
     a carboxyl group and an amino group in unlithified seabed material.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/HAAC/3/
