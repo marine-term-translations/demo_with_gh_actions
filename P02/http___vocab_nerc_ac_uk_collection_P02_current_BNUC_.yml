@@ -3,11 +3,11 @@ labels:
   original: BactGenAbundSed
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Any enumeration of bacteria (Kingdom Monera so includes cyanobacteria)
     designated by terms other than taxonomic names (e.g. total) in any soil or sediment.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/BNUC/3/
