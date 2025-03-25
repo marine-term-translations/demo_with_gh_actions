@@ -3,11 +3,11 @@ labels:
   original: TCO2_Prod
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters related to the rates of TCO2 production and consumption based
     on light/dark bottle incubations
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/TNRP/1/
