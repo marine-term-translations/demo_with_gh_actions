@@ -1,0 +1,13 @@
+labels:
+- name: altLabel
+  original: Humidity
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Parameters that either quantify the water content of moist air or are
+    specifically used in its determination (eg wet bulb air temperature)
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/CHUM/1/

@@ -1,0 +1,12 @@
+labels:
+- name: altLabel
+  original: WC_LightAbsorb
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Water column spectral absorption parameters
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/PPAB/1/

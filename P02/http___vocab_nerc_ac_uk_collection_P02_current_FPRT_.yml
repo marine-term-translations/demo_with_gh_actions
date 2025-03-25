@@ -1,0 +1,12 @@
+labels:
+- name: altLabel
+  original: ZooDefRate
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Faecal pellet production and gut evacuation rates
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/FPRT/2/

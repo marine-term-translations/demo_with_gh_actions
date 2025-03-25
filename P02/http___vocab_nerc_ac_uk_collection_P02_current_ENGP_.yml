@@ -1,0 +1,13 @@
+labels:
+- name: altLabel
+  original: Engineer
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Technical parameters that provide information on how well an instrument
+    or data acquisition system is working
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/ENGP/1/

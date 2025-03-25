@@ -1,0 +1,13 @@
+labels:
+- name: altLabel
+  original: Biota_RadAct
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: All parameters associated with radioactivity in either whole organisms
+    or their constituent parts
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/BRAD/1/

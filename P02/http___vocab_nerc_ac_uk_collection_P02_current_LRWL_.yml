@@ -1,0 +1,14 @@
+labels:
+- name: altLabel
+  original: LakeRiverLevel
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Parameters describing the vertical distance (height or elevation) of river
+    or lake water from a specified point of reference to the water's surface. Rivers
+    are defined as being upstream from the tidal limit.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/LRWL/1/

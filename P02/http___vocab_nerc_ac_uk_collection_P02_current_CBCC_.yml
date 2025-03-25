@@ -1,0 +1,14 @@
+labels:
+- name: altLabel
+  original: Bacteria_morph+physio
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Parameters describing the size, shape or physiological activity of bacteria,
+    defined as Kingdom Monera (includes cyanobacteria).  Includes parameters both
+    parameters mapped to taxa and those mapped to non-taxonomic groupings.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/CBCC/2/

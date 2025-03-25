@@ -1,0 +1,12 @@
+labels:
+- name: altLabel
+  original: SPM_Properties
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Parameters that do not easily fit into any of the other SPM data categories.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/DENS/2/

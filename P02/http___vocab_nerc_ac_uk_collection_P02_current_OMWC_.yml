@@ -1,0 +1,14 @@
+labels:
+- name: altLabel
+  original: Water_OrganoMet
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: All organometallic and organometalloid compound concentration parameters
+    (including saturations for gaseous species) in all phases of any body of fresh
+    or salt water.
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/OMWC/4/

@@ -1,0 +1,13 @@
+labels:
+- name: altLabel
+  original: WC_NO3+NO2
+  path: http://www.w3.org/2004/02/skos/core#altLabel
+  translations:
+  - fr: ''
+- name: definition
+  original: Deprecated term from a misguided attempt to distinguish between NO3 and
+    NO3+NO2 for discovery. Use parameter group NTRA instead
+  path: http://www.w3.org/2004/02/skos/core#definition
+  translations:
+  - fr: ''
+uri: http://vocab.nerc.ac.uk/collection/P02/current/NTRZ/3/
