@@ -3,11 +3,11 @@ labels:
   original: GeoRad
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Any parameters quantifying ionising radiation emitted by cores or samples
     comprising rock, sediment (including surface sediment such as fluff)
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/SRAD/2/

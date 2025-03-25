@@ -3,11 +3,11 @@ labels:
   original: At_Part
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters quantifying and categorising the particulate phases (solids
     and aerosols) of the atmosphere, excluding chemical composition
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/ATPC/2/
