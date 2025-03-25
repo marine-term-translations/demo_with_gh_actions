@@ -3,12 +3,12 @@ labels:
   original: Sfish_MorphAgePhys
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters that quantify the size, shape, age and life processes (including
     mortality) of shellfish (molluscs - including cephalopods - and crustaceans of
     interest to fisheries research and commercial fisheries).
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/SATM/2/
