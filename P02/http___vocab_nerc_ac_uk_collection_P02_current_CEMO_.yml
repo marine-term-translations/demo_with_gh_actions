@@ -3,12 +3,12 @@ labels:
   original: Cetac_Mort
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters describing the causes and rate of mortality in cetaceans (Order
     Cetacea). Includes both parameters mapped to taxa and those mapped to non-taxonomic
     groupings.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/CEMO/2/
