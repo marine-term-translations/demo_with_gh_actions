@@ -3,12 +3,12 @@ labels:
   original: SPM_C
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Concentrations of total, organic and inorganic carbon per unit weight
     of suspended particulate material collected by water column filtration, centrifugation
     or sediment trapping.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/CBSP/2/
