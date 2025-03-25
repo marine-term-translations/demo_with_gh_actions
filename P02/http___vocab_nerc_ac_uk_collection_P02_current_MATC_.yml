@@ -3,7 +3,7 @@ labels:
   original: Microzoo_taxa_C_biomass
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Microzooplankton carbon biomass parameters presented at the level of taxa
     that may be mapped to entities in a standard taxonomy registry such as WoRMS or
@@ -11,5 +11,5 @@ labels:
     morphological classifications such as 'heterotrophic flagellate'.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/MATC/2/

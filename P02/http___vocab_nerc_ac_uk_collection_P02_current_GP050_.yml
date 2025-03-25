@@ -3,11 +3,11 @@ labels:
   original: AtmosPAH
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters quantifying polycyclic aromatic hydrocarbon (PAH) concentrations
     in all phases of the atmosphere
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/GP050/1/

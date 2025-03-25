@@ -3,7 +3,7 @@ labels:
   original: WC_POC
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Concentrations of total and organic carbon in the particulate phase of
     the water column as extracted by a filtration technique. This is the particle-bound
@@ -14,5 +14,5 @@ labels:
     carbon fraction is negligible
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/CORG/1/
