@@ -3,11 +3,11 @@ labels:
   original: Sed_acoustics
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters relating to the elucidation of sediment structure by quantifying
     the proportion of waves from a low energy source reflected by sub-surface layers.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/SDAC/1/

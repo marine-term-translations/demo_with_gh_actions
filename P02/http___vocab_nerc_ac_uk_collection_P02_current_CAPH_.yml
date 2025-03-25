@@ -3,7 +3,7 @@ labels:
   original: Air_Press
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Measurements of air pressure as the dependent variable (ie excluding air
     pressure measured to specify the z co-ordinate of a balloon or sonde), including
@@ -11,5 +11,5 @@ labels:
     as air density.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/CAPH/2/
