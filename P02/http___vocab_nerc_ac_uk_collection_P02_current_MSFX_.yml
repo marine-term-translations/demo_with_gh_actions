@@ -3,11 +3,11 @@ labels:
   original: WC_SedFlux
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters expressing the total sedimentation flux in terms of particle
     mass, volume or counts
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/MSFX/1/
