@@ -3,11 +3,11 @@ labels:
   original: Sed_PhaeoPigs
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Includes all variants of phaeopigment (chlorophyll degradation products).
     Sediment is defined as any solids collected by a corer, including fluff..
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/PHSD/1/
