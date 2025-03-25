@@ -3,7 +3,7 @@ labels:
   original: Zoobenth_tax_ww_biomass
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Zoobenthos wet weight biomass per unit area parameters presented at the
     level of taxa that may be mapped to entities in a standard taxonomy registry such
@@ -11,5 +11,5 @@ labels:
     returned from sediment samples.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/ZWTX/2/
