@@ -3,11 +3,11 @@ labels:
   original: FCM_water
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters derived from flow cytometry data analysis of water samples
     using in situ or bench-top flow cytometers.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/FCMW/1/

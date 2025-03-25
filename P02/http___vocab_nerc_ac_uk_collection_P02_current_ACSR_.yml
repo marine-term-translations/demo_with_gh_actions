@@ -3,11 +3,11 @@ labels:
   original: ActSeisRefrac
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters quantifying the magnitude of earth movements resulting from
     artificial sources (such as explosions) far away from the measurement site.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/ACSR/2/
