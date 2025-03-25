@@ -3,11 +3,11 @@ labels:
   original: Biodetritus_WCFlux
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Flux of biological detritus (material derived from the water column such
     as exuvia and faecal pellets) in the water column
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/FPFX/1/
