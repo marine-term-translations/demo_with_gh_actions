@@ -8,5 +8,5 @@ labels:
     original: "Parameters describing the amount in a sample of a tracer (rhodamine, SF6, 3He, etc.) that has been purposely released into  a water body to track water mass movements or quantify exchanges with the atmosphere."
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
-      - fr: "to be filled in"
+      - fr: "SHRTHRTGDFHSHSTHSRTH"
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/WCTR/1/"
