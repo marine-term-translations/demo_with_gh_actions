@@ -1,13 +1,12 @@
 labels:
-- name: altLabel
-  original: RawO2Output
-  path: http://www.w3.org/2004/02/skos/core#altLabel
-  translations:
-  - fr: ''
-- name: definition
-  original: Raw parameters (usually membrane current and temperature) from dissolved
-    oxygen sensors
-  path: http://www.w3.org/2004/02/skos/core#definition
-  translations:
-  - fr: ''
-uri: http://vocab.nerc.ac.uk/collection/P02/current/OXYC/1/
+  - name: "altLabel"
+    original: "RawO2Output"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    translations:
+      - fr: "zefzef"
+  - name: "definition"
+    original: "Raw parameters (usually membrane current and temperature) from dissolved oxygen sensors"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    translations:
+      - fr: "zeFZEF"
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/OXYC/1/"

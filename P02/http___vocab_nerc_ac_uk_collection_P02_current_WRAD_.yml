@@ -1,14 +1,12 @@
 labels:
-- name: altLabel
-  original: WC_RadAct
-  path: http://www.w3.org/2004/02/skos/core#altLabel
-  translations:
-  - fr: ''
-- name: definition
-  original: All parameters associated with radioactivity in any body of fresh or salt
-    water, including radiation counts, isotope activities and activity ratios. Activities
-    per unit mass of SPM are included.
-  path: http://www.w3.org/2004/02/skos/core#definition
-  translations:
-  - fr: ''
-uri: http://vocab.nerc.ac.uk/collection/P02/current/WRAD/2/
+  - name: "altLabel"
+    original: "WC_RadAct"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    translations:
+      - fr: "STHSRTHS"
+  - name: "definition"
+    original: "All parameters associated with radioactivity in any body of fresh or salt water, including radiation counts, isotope activities and activity ratios. Activities per unit mass of SPM are included."
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    translations:
+      - fr: "FGSRTHSRTHRTH"
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/WRAD/2/"
