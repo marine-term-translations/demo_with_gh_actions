@@ -8,5 +8,5 @@ labels:
     original: "Deprecated term from a misguided attempt to distinguish between NO3 and NO3+NO2 for discovery. Use parameter group NTRA instead"
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
-      - fr: "to be filled in"
+      - fr: "zefzfe"
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/NTRZ/3/"
