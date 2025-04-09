@@ -8,5 +8,5 @@ labels:
     original: "Raw parameters (usually membrane current and temperature) from dissolved oxygen sensors"
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
-      - fr: "to be filled in"
+      - fr: "zeFZEF"
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/OXYC/1/"
