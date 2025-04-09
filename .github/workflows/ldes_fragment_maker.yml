@@ -30,8 +30,8 @@ jobs:
           echo "Last hash: $last_hash"
           changed_files=$(git diff --name-only $last_hash $current_hash)
           echo "Changed files: $changed_files"
-      #- name: LDES fragment maker and publisher
-      #  uses: cedricdcc/ldes-fragment-maker-action@latest
+      - name: LDES fragment maker and publisher
+        uses: marine-term-translations/ldes_fragment_maker_action@latest
       #- name: Deploy to GitHub Pages
       #  uses: peaceiris/actions-gh-pages@v3
       #  with:
