@@ -11,3 +11,4 @@ sources:
         path: http://www.w3.org/2004/02/skos/core#definition
       - name: altLabel
         path: http://www.w3.org/2004/02/skos/core#altLabel
+base_uri: https://marine-term-translations.github.io/demo_with_gh_actions/
