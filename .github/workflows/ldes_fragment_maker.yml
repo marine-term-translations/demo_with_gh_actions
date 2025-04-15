@@ -11,27 +11,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      - name: get the current hash of the main branch and the changed files
-        run: |
-          if [ "${{ github.event_name }}" = "pull_request" ]; then
-            base_branch=${{ github.event.pull_request.base.ref }}
-            head_branch=${{ github.event.pull_request.head.ref }}
-          else
-            base_branch="main"
-            head_branch=${{ github.ref_name }}
-          fi
-          echo "Base branch: $base_branch"
-          echo "Head branch: $head_branch"
-          git fetch origin $base_branch
-          git fetch origin $head_branch
-          current_hash=$(git rev-parse origin/$base_branch)
-          last_hash=$(git rev-parse origin/$head_branch)
-          echo "Current hash: $current_hash"
-          echo "Last hash: $last_hash"
-          changed_files=$(git diff --name-only $last_hash $current_hash)
-          echo "Changed files: $changed_files"
       - name: LDES fragment maker and publisher
         uses: marine-term-translations/ldes_fragment_maker_action@latest
+        with:
+          branch: ${{ github.ref_name }}
       #- name: Deploy to GitHub Pages
       #  uses: peaceiris/actions-gh-pages@v3
       #  with:
