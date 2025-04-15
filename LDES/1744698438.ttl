@@ -1,0 +1,324 @@
+
+    @prefix tree: <https://w3id.org/tree#> .
+    @prefix ldes: <https://w3id.org/ldes#> .
+    @prefix dc: <http://purl.org/dc/terms/> .
+    @prefix sh: <http://www.w3.org/ns/shacl#> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+    
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/1744698438.ttl>
+        a tree:Node ;
+        
+        ldes:retentionPolicy [
+            a ldes:LatestVersionSubset ;
+            ldes:amount 100 ;
+            ldes:versionKey ( dc:isVersionOf )
+        ] .
+    
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/>
+      a ldes:EventStream ;
+      ldes:timestampPath dc:modified ;
+      ldes:versionOfPath dc:isVersionOf ;
+      tree:shape [
+        a sh:NodeShape ;
+        sh:nodeKind sh:IRI ;
+        sh:property [
+          sh:datatype xsd:string ;
+          sh:minCount 1 ;
+          sh:path <http://www.w3.org/2004/02/skos/core#definition> 
+        ],
+        sh:property [
+          sh:datatype xsd:string ;
+          sh:minCount 1 ;
+          sh:path <http://www.w3.org/2004/02/skos/core#altLabel> 
+        ],
+        sh:property [
+          sh:datatype xsd:string ;
+          sh:minCount 1 ;
+          sh:path dc:isVersionOf
+        ];
+        sh:targetClass skos:Concept
+      ] ;
+      tree:view <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/1744698438.ttl> ;
+      .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RALT/3/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/RALT/3/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ZEFZE"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ZFEZEFZEFzef"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/RALT" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/RALT/3/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/RALT/3/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ZEFZE"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ZFEZEFZEFzef"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/RALT" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WRAD/2/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/WRAD/2/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "STHSRTHS"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "FGSRTHSRTHRTH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/WRAD" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WRAD/2/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/WRAD/2/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "STHSRTHS"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "FGSRTHSRTHRTH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/WRAD" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/A999/2/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/A999/2/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "modification"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "grgzrgzrgzrg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/A999" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/A999/2/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/A999/2/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "modification"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "grgzrgzrgzrg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/A999" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZATX/2/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/ZATX/2/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "to be filled in"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "to be filled in"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/ZATX" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/ZATX/2/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/ZATX/2/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "to be filled in"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "to be filled in"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/ZATX" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/HLDE/3/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/HLDE/3/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergergerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "aergfgergzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/HLDE" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/HLDE/3/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/HLDE/3/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergergerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "aergfgergzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/HLDE" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WCTR/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/WCTR/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "SERGSERGHSRGEQG"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "SHRTHRTGDFHSHSTHSRTH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/WCTR" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/WCTR/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/WCTR/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "SERGSERGHSRGEQG"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "SHRTHRTGDFHSHSTHSRTH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/WCTR" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FIBM/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/FIBM/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergzerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ergzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/FIBM" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/FIBM/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/FIBM/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergzerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ergzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/FIBM" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GP010/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/GP010/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "aretzerzer"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "rzerfgdfgregz"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GP010" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GP010/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/GP010/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "aretzerzer"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "rzerfgdfgregz"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GP010" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GP087/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/GP087/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergergergf"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "eregzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GP087" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GP087/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/GP087/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergergergf"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "eregzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GP087" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/NTRZ/3/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/NTRZ/3/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "dzefqzef"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "zefzfe"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/NTRZ" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/NTRZ/3/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/NTRZ/3/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "dzefqzef"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "zefzfe"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/NTRZ" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BLUM/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/BLUM/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "Biolume"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "regerzg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/BLUM" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/BLUM/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/BLUM/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "Biolume"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "regerzg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/BLUM" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SIAT/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/SIAT/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "zfezefzefZE"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "Ezfzef"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SIAT" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SIAT/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/SIAT/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "zfezefzefZE"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "Ezfzef"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SIAT" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/TPHS/2/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/TPHS/2/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "<GSDVWDFHSTH"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "SHRTJTDBSH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/TPHS" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/TPHS/2/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/TPHS/2/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "<GSDVWDFHSTH"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "SHRTJTDBSH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/TPHS" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/LRZA/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/LRZA/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "grregsfdgreagerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "regregfdgregzer"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/LRZA" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/LRZA/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/LRZA/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "grregsfdgreagerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "regregfdgregzer"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/LRZA" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SHTA/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/SHTA/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "perry"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "efqzefzefZ"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SHTA" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SHTA/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/SHTA/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "perry"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "efqzefzefZ"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SHTA" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GHDX/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/GHDX/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "rgzerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ergregergzergz"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GHDX" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/GHDX/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/GHDX/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "rgzerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ergregergzergz"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GHDX" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SXCN/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/SXCN/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "TRHRTHDYTJDF"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "FEFGTRHTJTYJTJ"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SXCN" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SXCN/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/SXCN/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "TRHRTHDYTJDF"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "FEFGTRHTJTYJTJ"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SXCN" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SPHT/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/SPHT/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ZEFzfZF"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ZEfzefefZEFZE"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SPHT" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/SPHT/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/SPHT/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ZEFzfZF"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ZEfzefefZEFZE"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SPHT" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/OXYC/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/OXYC/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "zefzef"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "zeFZEF"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/OXYC" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/OXYC/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/OXYC/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "zefzef"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "zeFZEF"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/OXYC" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/NOYS/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/NOYS/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergrgsgregregerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "qergegfdgrhrqgre"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/NOYS" 
+        .
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/> tree:member <http://vocab.nerc.ac.uk/collection/P02/current/NOYS/1/> .
+    <http://vocab.nerc.ac.uk/collection/P02/current/NOYS/1/>
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergrgsgregregerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "qergegfdgrhrqgre"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/NOYS" 
+        .
+    
