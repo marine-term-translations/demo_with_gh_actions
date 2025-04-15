@@ -32,6 +32,8 @@ jobs:
           echo "Changed files: $changed_files"
       - name: LDES fragment maker and publisher
         uses: marine-term-translations/ldes_fragment_maker_action@latest
+        with:
+          branch: ${{ github.ref_name }}
       #- name: Deploy to GitHub Pages
       #  uses: peaceiris/actions-gh-pages@v3
       #  with:
