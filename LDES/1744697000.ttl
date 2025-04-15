@@ -1,0 +1,44 @@
+
+    @prefix tree: <https://w3id.org/tree#> .
+    @prefix ldes: <https://w3id.org/ldes#> .
+    @prefix dc: <http://purl.org/dc/terms/> .
+    @prefix sh: <http://www.w3.org/ns/shacl#> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+    
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/1744697000.ttl>
+        a tree:Node ;
+        
+        ldes:retentionPolicy [
+            a ldes:LatestVersionSubset ;
+            ldes:amount 100 ;
+            ldes:versionKey ( dc:isVersionOf )
+        ] .
+    
+    <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/>
+      a ldes:EventStream ;
+      ldes:timestampPath dc:modified ;
+      ldes:versionOfPath dc:isVersionOf ;
+      tree:shape [
+        a sh:NodeShape ;
+        sh:nodeKind sh:IRI ;
+        sh:property [
+          sh:datatype xsd:string ;
+          sh:minCount 1 ;
+          sh:path <http://www.w3.org/2004/02/skos/core#definition> 
+        ],
+        sh:property [
+          sh:datatype xsd:string ;
+          sh:minCount 1 ;
+          sh:path <http://www.w3.org/2004/02/skos/core#altLabel> 
+        ],
+        sh:property [
+          sh:datatype xsd:string ;
+          sh:minCount 1 ;
+          sh:path dc:isVersionOf
+        ];
+        sh:targetClass skos:Concept
+      ] ;
+      tree:view <https://marine-term-translations.github.io/demo_with_gh_actions//ldes/1744697000.ttl> ;
+      .
+    
