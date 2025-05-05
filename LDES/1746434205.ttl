@@ -1,0 +1,367 @@
+
+    @prefix tree: <https://w3id.org/tree#> .
+    @prefix ldes: <https://w3id.org/ldes#> .
+    @prefix dc: <http://purl.org/dc/terms/> .
+    @prefix sh: <http://www.w3.org/ns/shacl#> .
+    @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+    @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+    @base <https://marine-term-translations.github.io/demo_with_gh_actions/LDES/1746434205.ttl> .
+    
+    <>
+        a tree:Node ;
+        
+        ldes:retentionPolicy [
+            a ldes:LatestVersionSubset ;
+            ldes:amount 100 ;
+            ldes:versionKey ( dc:isVersionOf )
+        ] .
+    
+    <../feed.ttl>
+      a ldes:EventStream ;
+      ldes:timestampPath dc:modified ;
+      ldes:versionOfPath dc:isVersionOf ;
+      tree:shape [
+        a sh:NodeShape ;
+        sh:nodeKind sh:IRI ;
+        sh:property [
+          sh:datatype xsd:string ;
+          sh:minCount 1 ;
+          sh:path <http://www.w3.org/2004/02/skos/core#definition> 
+        ];
+        sh:property [
+          sh:datatype xsd:string ;
+          sh:minCount 1 ;
+          sh:path <http://www.w3.org/2004/02/skos/core#altLabel> 
+        ];
+        sh:property [
+          sh:datatype xsd:string ;
+          sh:minCount 1 ;
+          sh:path dc:isVersionOf
+        ];
+        
+        sh:targetClass skos:Concept
+      ] ;
+      tree:view <> ;
+      .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_RALT_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_RALT_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ZEFZE"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ZFEZEFZEFzef"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/RALT" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_RALT_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_RALT_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ZEFZE"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ZFEZEFZEFzef"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/RALT" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_WRAD_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_WRAD_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "STHSRTHS"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "FGSRTHSRTHRTH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/WRAD" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_WRAD_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_WRAD_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "STHSRTHS"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "FGSRTHSRTHRTH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/WRAD" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_A999_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_A999_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "modification"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "grgzrgzrgzrg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/A999" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_A999_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_A999_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "modification"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "grgzrgzrgzrg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/A999" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_ZATX_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_ZATX_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "to be filled in"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "to be filled in"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/ZATX" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_ZATX_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_ZATX_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "to be filled in"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "to be filled in"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/ZATX" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_HLDE_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_HLDE_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergergerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "aergfgergzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/HLDE" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_HLDE_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_HLDE_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergergerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "aergfgergzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/HLDE" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_WCTR_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_WCTR_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "SERGSERGHSRGEQG"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "SHRTHRTGDFHSHSTHSRTH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/WCTR" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_WCTR_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_WCTR_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "SERGSERGHSRGEQG"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "SHRTHRTGDFHSHSTHSRTH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/WCTR" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_FIBM_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_FIBM_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergzerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ergzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/FIBM" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_FIBM_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_FIBM_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergzerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ergzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/FIBM" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_GP010_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_GP010_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "aretzerzer"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "rzerfgdfgregz"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GP010" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_GP010_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_GP010_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "aretzerzer"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "rzerfgdfgregz"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GP010" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_GP087_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_GP087_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergergergf"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "eregzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GP087" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_GP087_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_GP087_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergergergf"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "eregzerg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GP087" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_NTRZ_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_NTRZ_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "dzefqzef"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "zefzfe"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/NTRZ" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_NTRZ_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_NTRZ_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "dzefqzef"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "zefzfe"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/NTRZ" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_BLUM_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_BLUM_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "Biolume"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "regerzg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/BLUM" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_BLUM_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_BLUM_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "Biolume"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "regerzg"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/BLUM" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_SIAT_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_SIAT_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "zfezefzefZE"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "Ezfzef"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SIAT" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_SIAT_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_SIAT_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "zfezefzefZE"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "Ezfzef"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SIAT" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_TPHS_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_TPHS_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "<GSDVWDFHSTH"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "SHRTJTDBSH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/TPHS" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_TPHS_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_TPHS_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "<GSDVWDFHSTH"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "SHRTJTDBSH"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/TPHS" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_LRZA_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_LRZA_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "grregsfdgreagerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "regregfdgregzer"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/LRZA" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_LRZA_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_LRZA_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "grregsfdgreagerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "regregfdgregzer"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/LRZA" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_SHTA_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_SHTA_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "perry"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "efqzefzefZ"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SHTA" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_SHTA_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_SHTA_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "perry"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "efqzefzefZ"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SHTA" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_GHDX_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_GHDX_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "rgzerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ergregergzergz"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GHDX" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_GHDX_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_GHDX_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "rgzerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ergregergzergz"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/GHDX" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_SXCN_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_SXCN_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "TRHRTHDYTJDF"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "FEFGTRHTJTYJTJ"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SXCN" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_SXCN_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_SXCN_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "TRHRTHDYTJDF"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "FEFGTRHTJTYJTJ"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SXCN" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_SPHT_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_SPHT_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ZEFzfZF"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ZEfzefefZEFZE"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SPHT" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_SPHT_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_SPHT_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ZEFzfZF"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "ZEfzefefZEFZE"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/SPHT" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_OXYC_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_OXYC_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "zefzef"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "zeFZEF"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/OXYC" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_OXYC_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_OXYC_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "zefzef"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "zeFZEF"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/OXYC" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_NOYS_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_NOYS_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergrgsgregregerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "qergegfdgrhrqgre"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/NOYS" 
+        .
+    <> tree:member <#http___vocab_nerc_ac_uk_collection_P02_current_NOYS_.yml> .
+    <#http___vocab_nerc_ac_uk_collection_P02_current_NOYS_.yml>
+        
+        a skos:Concept ;
+        <http://www.w3.org/2004/02/skos/core#altLabel> "ergrgsgregregerg"@fr ;
+        <http://www.w3.org/2004/02/skos/core#definition> "qergegfdgrhrqgre"@fr ;
+        dc:isVersionOf "http://vocab.nerc.ac.uk/collection/P02/NOYS" 
+        .
+    
