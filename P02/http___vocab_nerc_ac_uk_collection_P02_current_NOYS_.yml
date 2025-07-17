@@ -3,7 +3,7 @@ labels:
     original: "Noise"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
-      - fr: "ergrgsgregregerg"
+      - fr: "Bruit"
   - name: "definition"
     original: ""
     path: "http://www.w3.org/2004/02/skos/core#definition"
