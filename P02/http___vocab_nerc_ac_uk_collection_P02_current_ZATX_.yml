@@ -1,15 +1,12 @@
 labels:
-- name: altLabel
-  original: Zoo_taxa_abund
-  path: http://www.w3.org/2004/02/skos/core#altLabel
-  translations:
-  - fr: to be filled in
-- name: definition
-  original: Zooplankton (mesozooplankton plus larger pelagic animals excluding fish,
-    reptiles and mammals) abundance parameters presented at the level of taxa that
-    may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These
-    may be at any taxonomic level from sub-species upwards.
-  path: http://www.w3.org/2004/02/skos/core#definition
-  translations:
-  - fr: to be filled in
-uri: http://vocab.nerc.ac.uk/collection/P02/current/ZATX/2/
+  - name: "altLabel"
+    original: "Zoo_taxa_abund"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    translations:
+      - fr: "to be filled in"
+  - name: "definition"
+    original: "Zooplankton (mesozooplankton plus larger pelagic animals excluding fish, reptiles and mammals) abundance parameters presented at the level of taxa that may be mapped to entities in a standard taxonomy registry such as WoRMS or ITIS.  These may be at any taxonomic level from sub-species upwards."
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    translations:
+      - fr: "Zooplancton (Mesozooplankton plus animaux pélagiques plus grands excluant les paramètres d'abondance des poissons, des reptiles et des mammifères) présentés au niveau des taxons qui peuvent être cartographiés aux entités dans un registre de taxonomie standard tel que les vers ou les ITI.  Ceux-ci peuvent être à n'importe quel niveau taxonomique des sous-espèces vers le haut."
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/ZATX/2/"
