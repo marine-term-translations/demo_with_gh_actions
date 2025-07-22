@@ -8,5 +8,5 @@ labels:
     original: "Concentration parameters for inorganic sulphur species in suspended particulate material (anything collected by filtration or sediment trapping).  Group does not include parameters expressing data per unit volume of the water column"
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
-      - fr: "FEFGTRHTJTYJTJ"
+      - fr: "Paramètres de concentration pour les espèces de soufre inorganiques dans le matériau particulaire en suspension (tout ce qui est collecté par filtration ou piégeage de sédiments).  Le groupe n'inclut pas les paramètres exprimant des données par unité de volume de la colonne d'eau"
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/SXCN/1/"
