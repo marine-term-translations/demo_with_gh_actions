@@ -3,7 +3,7 @@ labels:
     original: "Silic_At"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
-      - fr: "zfezefzefZE"
+      - fr: "Silic_At"
   - name: "definition"
     original: "Concentration of inorganic silicon species (element or compounds) in any phase of the atmosphere"
     path: "http://www.w3.org/2004/02/skos/core#definition"
