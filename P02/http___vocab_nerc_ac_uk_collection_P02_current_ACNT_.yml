@@ -8,5 +8,5 @@ labels:
     original: "Macroalgae (Rhodophycota, Chromphycota, Chlorophycota) and seagrass (Charophyta, Anthophyta) count parameters presented at the level of taxa at any level from sub-species upwards. Count includes presence/absence indicators."
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
-      - fr: "to be filled in"
+      - fr: "Les macroalgues (Rhodophycota, Chromphycota, Chlorophycota) et les herbiers marins (Charophyta, anthophyta) comptent les paramètres présentés au niveau des taxons à n'importe quel niveau à partir de sous-espèces vers le haut. Le nombre comprend des indicateurs de présence / absence."
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/ACNT/1/"
