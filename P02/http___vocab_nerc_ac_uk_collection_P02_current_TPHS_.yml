@@ -8,5 +8,5 @@ labels:
     original: "Concentrations of total and organic phosphorus in the particulate phase of the water column, which is a function of both the SPM concentration in the water column and the concentration of phosphorus per unit weight of SPM."
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
-      - fr: "SHRTJTDBSH"
+      - fr: "Concentrations de phosphore total et organique dans la phase particulaire de la colonne d'eau, qui est fonction à la fois de la concentration de SPM dans la colonne d'eau et de la concentration de phosphore par unité de poids de SPM."
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/TPHS/2/"
