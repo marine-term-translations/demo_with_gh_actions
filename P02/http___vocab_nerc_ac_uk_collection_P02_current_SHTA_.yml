@@ -3,7 +3,7 @@ labels:
     original: "Sed_HydrolAct"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
-      - fr: "perry"
+      - fr: "Sed_HydrolAct"
   - name: "definition"
     original: ""
     path: "http://www.w3.org/2004/02/skos/core#definition"
