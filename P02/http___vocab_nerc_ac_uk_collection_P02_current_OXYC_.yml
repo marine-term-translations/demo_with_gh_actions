@@ -3,7 +3,7 @@ labels:
     original: "RawO2Output"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
-      - fr: "zefzef"
+      - fr: "RawO2Output"
   - name: "definition"
     original: "Raw parameters (usually membrane current and temperature) from dissolved oxygen sensors"
     path: "http://www.w3.org/2004/02/skos/core#definition"
