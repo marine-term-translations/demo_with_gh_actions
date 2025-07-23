@@ -3,7 +3,7 @@ labels:
     original: "Fish_MorphAgePhys"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
-      - fr: "to be filled in"
+      - fr: "Fish_MorphAgePhys"
   - name: "definition"
     original: "Parameters that quantify the size, shape, age and life processes (including mortality) of fish (Osteichthyes, Agnatha and Chrondrichthyes)."
     path: "http://www.w3.org/2004/02/skos/core#definition"
