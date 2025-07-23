@@ -3,7 +3,7 @@ labels:
     original: "BiolImpact"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
-      - fr: "aretzerzer"
+      - fr: "BiolImpact"
   - name: "definition"
     original: "Parameters describing the effects of substances on living organisms."
     path: "http://www.w3.org/2004/02/skos/core#definition"
