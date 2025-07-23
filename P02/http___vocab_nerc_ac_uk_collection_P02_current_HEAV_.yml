@@ -8,5 +8,5 @@ labels:
     original: "Measurements of wave height that are not based on the statistical analysis of wave records, such as heave, surface roughness and visual height estimates"
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
-      - fr: "to be filled in"
+      - fr: "Mesures de la hauteur des vagues qui ne sont pas basées sur l'analyse statistique des enregistrements des vagues, tels que le soulèvement, la rugosité de surface et les estimations de la hauteur visuelle"
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/HEAV/1/"
