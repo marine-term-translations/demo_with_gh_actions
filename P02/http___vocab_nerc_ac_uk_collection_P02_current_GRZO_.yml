@@ -3,7 +3,7 @@ labels:
     original: "ZooplGrowthRate"
     path: "http://www.w3.org/2004/02/skos/core#altLabel"
     translations:
-      - fr: "to be filled in"
+      - fr: "ZooplGrowthRate"
   - name: "definition"
     original: "Parameters pertaining to zooplankton growth rates including biochemical proxies such as AARS activity"
     path: "http://www.w3.org/2004/02/skos/core#definition"
