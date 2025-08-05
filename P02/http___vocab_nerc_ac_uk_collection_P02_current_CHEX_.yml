@@ -1,12 +1,12 @@
 labels:
-- name: altLabel
-  original: Atm_CloudCover
-  path: http://www.w3.org/2004/02/skos/core#altLabel
-  translations:
-  - fr: to be filled in
-- name: definition
-  original: Parameters describing the horizontal and vertical extent of cloud cover
-  path: http://www.w3.org/2004/02/skos/core#definition
-  translations:
-  - fr: to be filled in
-uri: http://vocab.nerc.ac.uk/collection/P02/current/CHEX/1/
+  - name: "altLabel"
+    original: "Atm_CloudCover"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    translations:
+      - fr: "Atm_CloudCover"
+  - name: "definition"
+    original: "Parameters describing the horizontal and vertical extent of cloud cover"
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    translations:
+      - fr: "to be filled in"
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/CHEX/1/"
