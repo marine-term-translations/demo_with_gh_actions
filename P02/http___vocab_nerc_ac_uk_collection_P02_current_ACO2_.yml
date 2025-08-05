@@ -8,5 +8,5 @@ labels:
     original: "CO and CO2 concentration parameters in any phase of the atmosphere (but usuall the gaseous phase). Includes pCO2."
     path: "http://www.w3.org/2004/02/skos/core#definition"
     translations:
-      - fr: "to be filled in"
+      - fr: "Paramètres de concentration CO et CO2 dans n'importe quelle phase de l'atmosphère (mais en utilisant la phase gazeuse). Comprend PCO2."
 uri: "http://vocab.nerc.ac.uk/collection/P02/current/ACO2/2/"
