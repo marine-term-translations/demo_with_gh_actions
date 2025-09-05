@@ -1,13 +1,12 @@
 labels:
-- name: altLabel
-  original: Amos_Halogen
-  path: http://www.w3.org/2004/02/skos/core#altLabel
-  translations:
-  - fr: to be filled in
-- name: definition
-  original: Concentrations of halogens as elements or their inorganic compounds in
-    all phases of the atmosphere.
-  path: http://www.w3.org/2004/02/skos/core#definition
-  translations:
-  - fr: to be filled in
-uri: http://vocab.nerc.ac.uk/collection/P02/current/HLAT/5/
+  - name: "altLabel"
+    original: "Amos_Halogen"
+    path: "http://www.w3.org/2004/02/skos/core#altLabel"
+    translations:
+      - fr: "Amos_Halogen"
+  - name: "definition"
+    original: "Concentrations of halogens as elements or their inorganic compounds in all phases of the atmosphere."
+    path: "http://www.w3.org/2004/02/skos/core#definition"
+    translations:
+      - fr: "to be filled in"
+uri: "http://vocab.nerc.ac.uk/collection/P02/current/HLAT/5/"
