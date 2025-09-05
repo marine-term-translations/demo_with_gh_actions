@@ -3,11 +3,11 @@ labels:
   original: Seal_Mort
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters describing the causes and rate of mortality of true seals (Phocidae),
     eared seals (Otariidae) and walruses (Odobenidae).
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/SEMO/4/
