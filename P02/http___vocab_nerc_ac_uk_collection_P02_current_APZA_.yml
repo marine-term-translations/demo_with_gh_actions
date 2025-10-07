@@ -3,11 +3,11 @@ labels:
   original: VertPlatVelocity
   path: http://www.w3.org/2004/02/skos/core#altLabel
   translations:
-  - fr: ''
+  - fr: to be filled in
 - name: definition
   original: Parameters quantifying the upward and downward motion of objects mounting
     sensors or collecting samples.
   path: http://www.w3.org/2004/02/skos/core#definition
   translations:
-  - fr: ''
+  - fr: to be filled in
 uri: http://vocab.nerc.ac.uk/collection/P02/current/APZA/2/
